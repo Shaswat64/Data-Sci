@@ -10,4 +10,6 @@ hr = pd.read_csv('HR_Dataset Refresh.csv')
 # hr['Birth Day Name'] = hr['DOB'].dt.day_name()
 # print(hr['Birth Month Name'])
 # print(hr.info())
-print(hr.isnull().sum())
+# print(hr.isnull().sum())
+
+print(hr['Salary'])
