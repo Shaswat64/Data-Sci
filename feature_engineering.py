@@ -13,3 +13,4 @@ hr = pd.read_csv('HR_Dataset Refresh.csv')
 # print(hr.isnull().sum())
 
 print(hr['Salary'])
+
