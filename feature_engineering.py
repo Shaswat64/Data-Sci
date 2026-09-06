@@ -14,4 +14,4 @@ hr = pd.read_csv('HR_Dataset Refresh.csv')
 
 print(hr['Salary'])
 
-
+import pandas as pd
